@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on THE MAQ BLOG</title>
-    <link>https://themaqblog.github.io/tags/</link>
+    <link>https://mohd-abdul-quadeer.github.io/themaqblog/tags/</link>
     <description>Recent content in Tags on THE MAQ BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 Sep 2023 19:08:40 +0530</lastBuildDate><atom:link href="https://themaqblog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Sep 2023 19:08:40 +0530</lastBuildDate><atom:link href="https://mohd-abdul-quadeer.github.io/themaqblog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Competitive Programming</title>
-      <link>https://themaqblog.github.io/tags/competitive-programming/</link>
+      <link>https://mohd-abdul-quadeer.github.io/themaqblog/tags/competitive-programming/</link>
       <pubDate>Sun, 24 Sep 2023 19:08:40 +0530</pubDate>
       
-      <guid>https://themaqblog.github.io/tags/competitive-programming/</guid>
+      <guid>https://mohd-abdul-quadeer.github.io/themaqblog/tags/competitive-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vim</title>
-      <link>https://themaqblog.github.io/tags/vim/</link>
+      <link>https://mohd-abdul-quadeer.github.io/themaqblog/tags/vim/</link>
       <pubDate>Sun, 24 Sep 2023 19:08:40 +0530</pubDate>
       
-      <guid>https://themaqblog.github.io/tags/vim/</guid>
+      <guid>https://mohd-abdul-quadeer.github.io/themaqblog/tags/vim/</guid>
       <description></description>
     </item>
     

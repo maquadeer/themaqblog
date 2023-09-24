@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>setup files on THE MAQ BLOG</title>
-    <link>https://themaqblog.github.io/categories/setup-files/</link>
+    <link>https://mohd-abdul-quadeer.github.io/themaqblog/categories/setup-files/</link>
     <description>Recent content in setup files on THE MAQ BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 Sep 2023 19:08:40 +0530</lastBuildDate><atom:link href="https://themaqblog.github.io/categories/setup-files/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Sep 2023 19:08:40 +0530</lastBuildDate><atom:link href="https://mohd-abdul-quadeer.github.io/themaqblog/categories/setup-files/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Basic vim setup for Competitive Programming</title>
-      <link>https://themaqblog.github.io/post/vimrc/</link>
+      <link>https://mohd-abdul-quadeer.github.io/themaqblog/post/vimrc/</link>
       <pubDate>Sun, 24 Sep 2023 19:08:40 +0530</pubDate>
       
-      <guid>https://themaqblog.github.io/post/vimrc/</guid>
+      <guid>https://mohd-abdul-quadeer.github.io/themaqblog/post/vimrc/</guid>
       <description>Basic vim setup syntax on syntax on enables syntax highlighting in Vim. This highlights different elements of your code with different colors to make it more readable and easier to understand. filetype plugin indent on filetype plugin indent on enables file type detection, which allows Vim to automatically detect the type of file you are editing and apply appropriate settings and plugins for that file type. It also enables automatic indentation based on the file type.</description>
     </item>
     
