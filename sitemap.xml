@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/post/vimrc/</loc>
+    <lastmod>2023-09-24T19:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2023-09-24T19:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/competitive-programming/</loc>
+    <lastmod>2023-09-24T19:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2023-09-24T19:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/setup-files/</loc>
+    <lastmod>2023-09-24T19:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2023-09-24T19:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://example.com/</loc>
+    <lastmod>2023-09-24T19:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/vim/</loc>
+    <lastmod>2023-09-24T19:08:40+05:30</lastmod>
+  </url>
+</urlset>

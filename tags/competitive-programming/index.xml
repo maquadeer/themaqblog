@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Competitive Programming on THE MAQ BLOG</title>
+    <link>https://example.com/tags/competitive-programming/</link>
+    <description>Recent content in Competitive Programming on THE MAQ BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Sep 2023 19:08:40 +0530</lastBuildDate><atom:link href="https://example.com/tags/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Basic vim setup for Competitive Programming</title>
+      <link>https://example.com/post/vimrc/</link>
+      <pubDate>Sun, 24 Sep 2023 19:08:40 +0530</pubDate>
+      
+      <guid>https://example.com/post/vimrc/</guid>
+      <description>Basic vim setup syntax on syntax on enables syntax highlighting in Vim. This highlights different elements of your code with different colors to make it more readable and easier to understand. filetype plugin indent on filetype plugin indent on enables file type detection, which allows Vim to automatically detect the type of file you are editing and apply appropriate settings and plugins for that file type. It also enables automatic indentation based on the file type.</description>
+    </item>
+    
+  </channel>
+</rss>
