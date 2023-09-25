@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/post/vimrc/</loc>
+    <loc>https://maquadeer.github.io/themaqblog/post/vimrc/</loc>
     <lastmod>2023-09-24T19:08:40+05:30</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://maquadeer.github.io/themaqblog/categories/</loc>
     <lastmod>2023-09-24T19:08:40+05:30</lastmod>
   </url><url>
-    <loc>/tags/competitive-programming/</loc>
+    <loc>https://maquadeer.github.io/themaqblog/tags/competitive-programming/</loc>
     <lastmod>2023-09-24T19:08:40+05:30</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>https://maquadeer.github.io/themaqblog/post/</loc>
     <lastmod>2023-09-24T19:08:40+05:30</lastmod>
   </url><url>
-    <loc>/categories/setup-files/</loc>
+    <loc>https://maquadeer.github.io/themaqblog/categories/setup-files/</loc>
     <lastmod>2023-09-24T19:08:40+05:30</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://maquadeer.github.io/themaqblog/tags/</loc>
     <lastmod>2023-09-24T19:08:40+05:30</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://maquadeer.github.io/themaqblog/</loc>
     <lastmod>2023-09-24T19:08:40+05:30</lastmod>
   </url><url>
-    <loc>/tags/vim/</loc>
+    <loc>https://maquadeer.github.io/themaqblog/tags/vim/</loc>
     <lastmod>2023-09-24T19:08:40+05:30</lastmod>
   </url>
 </urlset>
