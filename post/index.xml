@@ -13,7 +13,7 @@
       <pubDate>Sun, 24 Sep 2023 19:08:40 +0530</pubDate>
       
       <guid>/post/vimrc/</guid>
-      <description>Basic vim setup syntax on syntax on enables syntax highlighting in Vim. This highlights different elements of your code with different colors to make it more readable and easier to understand. filetype plugin indent on filetype plugin indent on enables file type detection, which allows Vim to automatically detect the type of file you are editing and apply appropriate settings and plugins for that file type. It also enables automatic indentation based on the file type.</description>
+      <description>Basic vim setup syntax on syntax on enables syntax highlighting in Vim. This highlights different elements of your code with different colors to make it more readable and easier to understand.  filetype plugin indent on filetype plugin indent on enables file type detection, which allows Vim to automatically detect the type of file you are editing and apply appropriate settings and plugins for that file type. It also enables automatic indentation based on the file type.</description>
     </item>
     
   </channel>
