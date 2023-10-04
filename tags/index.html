@@ -11,112 +11,134 @@
     
     
 </head>
-<body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="/">THE MAQ BLOG</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    
-                    
-                        
-                            <li>
-                                <a href="/about/">
+<body class="bootstra-enable-cursor ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/">THE MAQ BLOG</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="main-nav" class="collapse nav-collapse">
+        <ul class="navbar-nav">
+              
+            <li class="nav-item ">
+                <a class="nav-link" href="/about/">
                                     
                                     <span>About</span>
                                 </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="/post/">
+            </li>
+              
+            <li class="nav-item ">
+                <a class="nav-link" href="/post/">
                                     
                                     <span>All posts</span>
                                 </a>
-                            </li>
-                        
-                    
-                </ul>
-            </div>
-        </div>
+            </li>
+             
+        </ul>
+    </div>
+    </div>
     </div>
 </nav><div id="content" class="container">
-<article class="row-fluid navmargin">
-    <header class="page-header">
-        <h1>Tags</h1>
-    </header>
-    
-    
+<article class="row">
+    <div class="col">
+        <div class="bs-component">
+            <h1>Tags</h1>
+            
+            
+        </div>
+    </div>
 </article>
-<ul>
-
-
-    <li>
-        <a href="/tags/competitive-programming/">2023-09-24 | Competitive Programming</a>
+<ul class="list-group">
+    
+    
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a href="/tags/competitive-programming/">Competitive Programming</a>
+        <span class="badge badge-primary badge-pill">2023-09-24</span>
     </li>
-
-    <li>
-        <a href="/tags/vim/">2023-09-24 | vim</a>
+    
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a href="/tags/vim/">vim</a>
+        <span class="badge badge-primary badge-pill">2023-09-24</span>
     </li>
-
+    
 </ul>
 
-        </div><footer class="container">
-    <hr class="soften">
-    <p>
+    </div><footer class="container">
+    <hr class="soften" />
+    <p class="text-center">
     <a href="">mohd-abdul-quadeer</a> | 
 
-&copy; 
+
+&copy;&nbsp;
+
+
 
     Quadeer
 
-<span id="thisyear">2023</span>
+
+
+<span id="thisyear">
+    2023
+</span>
+
 
     | Team Quadeer
 
 
+
 </p>
     <p class="text-center">
-        <a href="https://facebook.com">Facebook</a> 
-        <a href="https://twitter.com">Twitter</a> 
-        <a href="https://linkedin.com">Linkedin</a> 
-        <a href="https://github.com">GitHub</a> 
-        <a href="https://gitlab.com">GitLab</a>
+        
+            <a href="https://facebook.com">Facebook</a>
+        
+
+        
+            <a href="https://twitter.com">Twitter</a>
+        
+
+        
+            <a href="https://linkedin.com">Linkedin</a>
+        
+
+        
+            <a href="https://github.com">GitHub</a>
+        
+
+        
+            <a href="https://gitlab.com">GitLab</a>
+        
     </p>
 </footer>
-
-</body><link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="/css/bootstrap-responsive.css">
-<link rel="stylesheet" href="/css/style.css">
-
+</body><link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/css/style.css"> 
 <script src="/js/jquery.js"></script>
-<script src="/js/bootstrap-386.js"></script>
-<script src="/js/bootstrap-transition.js"></script>
-<script src="/js/bootstrap-alert.js"></script>
-<script src="/js/bootstrap-modal.js"></script>
-<script src="/js/bootstrap-dropdown.js"></script>
-<script src="/js/bootstrap-scrollspy.js"></script>
-<script src="/js/bootstrap-tab.js"></script>
-<script src="/js/bootstrap-tooltip.js"></script>
-<script src="/js/bootstrap-popover.js"></script>
-<script src="/js/bootstrap-button.js"></script>
-<script src="/js/bootstrap-collapse.js"></script>
-<script src="/js/bootstrap-carousel.js"></script>
-<script src="/js/bootstrap-typeahead.js"></script>
-<script src="/js/bootstrap-affix.js"></script>
-<script>
-    _386 = { 
-        fastLoad: false ,
-        onePass: false , 
-        speedFactor: 1 
-    };
+<script src="/js/bootstrap.min.js"></script>
 
+<script>
     
     function ThisYear() {
         document.getElementById('thisyear').innerHTML = new Date().getFullYear();
     };
 </script>
-</html>
+<script>	
+	
+(function(){
+  _386.magicCursor();
+  _386.scrollLock();
+  $('[data-toggle="tooltip"]').tooltip();
+  $('[data-toggle="popover"]').popover();
+
+  $(window).scroll(function() {
+    var top = $(document).scrollTop();
+    if(top > 50)
+      $('#home > .navbar').removeClass('navbar-transparent');
+    else
+      $('#home > .navbar').addClass('navbar-transparent');
+  });
+
+  $("a[href='#']").click(function(e) {
+    e.preventDefault();
+  });
+
+})();</script></html>

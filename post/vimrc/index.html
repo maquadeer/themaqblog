@@ -11,46 +11,42 @@
     
     
 </head>
-<body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="/">THE MAQ BLOG</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    
-                    
-                        
-                            <li>
-                                <a href="/about/">
+<body class="bootstra-enable-cursor ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/">THE MAQ BLOG</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="main-nav" class="collapse nav-collapse">
+        <ul class="navbar-nav">
+              
+            <li class="nav-item ">
+                <a class="nav-link" href="/about/">
                                     
                                     <span>About</span>
                                 </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="/post/">
+            </li>
+              
+            <li class="nav-item ">
+                <a class="nav-link" href="/post/">
                                     
                                     <span>All posts</span>
                                 </a>
-                            </li>
-                        
-                    
-                </ul>
-            </div>
-        </div>
+            </li>
+             
+        </ul>
+    </div>
+    </div>
     </div>
 </nav><div id="content" class="container">
 
-<div class="row-fluid navmargin">
-    <div class="page-header">
-        <h1>1. Basic vim setup for Competitive Programming - Sun, Sep 24, 2023</h1>
-    </div>
-    <p class="lead"></p>
-    <h1 id="basic-vim-setup">Basic vim setup</h1>
+<div class="row">
+    <div class="col">
+
+        <h1 class="mb-3">1. Basic vim setup for Competitive Programming - Sun, Sep 24, 2023</h1>
+
+        <p class="lead"></p>
+        <h1 id="basic-vim-setup">Basic vim setup</h1>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#a6e22e">syntax</span> <span style="color:#a6e22e">on</span><span style="color:#960050;background-color:#1e0010">
 </span></code></pre></div><ul>
 <li><code>syntax on</code> enables syntax highlighting in Vim. This highlights different elements of your code with different colors to make it more readable and easier to understand.</li>
@@ -160,63 +156,92 @@
 </ul>
 <p>This <code>.vimrc</code> file provides various settings and key mappings to enhance your Vim experience. You can customize it further to suit your preferences.</p>
 
-    <h4><a href="/">Back to Home</a></h4>
+
+    </div>
+</div>
+<div class="row align-center">
+    <div class="col">
+        <a href="/" class="btn btn-primary btn-lg">Back to Home</a>
+    </div>
 </div>
 
 
-        </div><footer class="container">
-    <hr class="soften">
-    <p>
+    </div><footer class="container">
+    <hr class="soften" />
+    <p class="text-center">
     <a href="">mohd-abdul-quadeer</a> | 
 
-&copy; 
+
+&copy;&nbsp;
+
+
 
     Quadeer
 
-<span id="thisyear">2023</span>
+
+
+<span id="thisyear">
+    2023
+</span>
+
 
     | Team Quadeer
 
 
+
 </p>
     <p class="text-center">
-        <a href="https://facebook.com">Facebook</a> 
-        <a href="https://twitter.com">Twitter</a> 
-        <a href="https://linkedin.com">Linkedin</a> 
-        <a href="https://github.com">GitHub</a> 
-        <a href="https://gitlab.com">GitLab</a>
+        
+            <a href="https://facebook.com">Facebook</a>
+        
+
+        
+            <a href="https://twitter.com">Twitter</a>
+        
+
+        
+            <a href="https://linkedin.com">Linkedin</a>
+        
+
+        
+            <a href="https://github.com">GitHub</a>
+        
+
+        
+            <a href="https://gitlab.com">GitLab</a>
+        
     </p>
 </footer>
-
-</body><link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="/css/bootstrap-responsive.css">
-<link rel="stylesheet" href="/css/style.css">
-
+</body><link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/css/style.css"> 
 <script src="/js/jquery.js"></script>
-<script src="/js/bootstrap-386.js"></script>
-<script src="/js/bootstrap-transition.js"></script>
-<script src="/js/bootstrap-alert.js"></script>
-<script src="/js/bootstrap-modal.js"></script>
-<script src="/js/bootstrap-dropdown.js"></script>
-<script src="/js/bootstrap-scrollspy.js"></script>
-<script src="/js/bootstrap-tab.js"></script>
-<script src="/js/bootstrap-tooltip.js"></script>
-<script src="/js/bootstrap-popover.js"></script>
-<script src="/js/bootstrap-button.js"></script>
-<script src="/js/bootstrap-collapse.js"></script>
-<script src="/js/bootstrap-carousel.js"></script>
-<script src="/js/bootstrap-typeahead.js"></script>
-<script src="/js/bootstrap-affix.js"></script>
-<script>
-    _386 = { 
-        fastLoad: false ,
-        onePass: false , 
-        speedFactor: 1 
-    };
+<script src="/js/bootstrap.min.js"></script>
 
+<script>
     
     function ThisYear() {
         document.getElementById('thisyear').innerHTML = new Date().getFullYear();
     };
 </script>
-</html>
+<script>	
+	
+(function(){
+  _386.magicCursor();
+  _386.scrollLock();
+  $('[data-toggle="tooltip"]').tooltip();
+  $('[data-toggle="popover"]').popover();
+
+  $(window).scroll(function() {
+    var top = $(document).scrollTop();
+    if(top > 50)
+      $('#home > .navbar').removeClass('navbar-transparent');
+    else
+      $('#home > .navbar').addClass('navbar-transparent');
+  });
+
+  $("a[href='#']").click(function(e) {
+    e.preventDefault();
+  });
+
+})();</script></html>
